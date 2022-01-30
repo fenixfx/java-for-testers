@@ -7,17 +7,17 @@ import java.util.Scanner;
 public class Task1_Calculator {
 
     public static void main(String[] args) {
-        final int OP_ADD = 0;
-        final int OP_SUBTRACT = 1;
-        final int OP_DIVIDE = 2;
-        final int OP_MULTIPLY = 3;
+        final int OP_ADD = 1;
+        final int OP_SUBTRACT = 2;
+        final int OP_DIVIDE = 3;
+        final int OP_MULTIPLY = 4;
 
         Scanner scan = new Scanner(System.in);
         float[] values = new float[2];
         int operation;
         float result;
 
-        System.out.println("Available operations is:\nAdd=0\nSubtract=1\nDivide=2\nMultiply=3");
+        System.out.println("Available operations is:\n1. Add\n2. Subtract\n3. Divide\n4. Multiply");
         System.out.println("Please specify first value:");
         values[0] = scan.nextFloat();
 

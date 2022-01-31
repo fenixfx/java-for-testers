@@ -26,6 +26,7 @@ public class Task1_Calculator {
 
         System.out.println("Please select operation:");
         operation = scan.nextInt();
+        scan.close();
         if (operation == OP_ADD)
             result = Add(values);
         else if (operation == OP_SUBTRACT)
